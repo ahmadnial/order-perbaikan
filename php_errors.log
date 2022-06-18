@@ -1,0 +1,475 @@
+[18-Apr-2022 10:01:43 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_query(): Argument #1 ($conn) must be of type resource, bool given in D:\nial_app\laporan\view.php:184
+Stack trace:
+#0 D:\nial_app\laporan\view.php(184): sqlsrv_query(false, 'SELECT * FROM l...')
+#1 {main}
+  thrown in D:\nial_app\laporan\view.php on line 184
+[18-Apr-2022 12:00:02 Asia/Jakarta] PHP Parse error:  syntax error, unexpected token "<" in D:\nial_app\laporan\proses.php on line 21
+[18-Apr-2022 12:05:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function alert() in D:\nial_app\laporan\proses.php:21
+Stack trace:
+#0 D:\nial_app\laporan\index.php(7): include()
+#1 {main}
+  thrown in D:\nial_app\laporan\proses.php on line 21
+[09-May-2022 11:56:31 Asia/Jakarta] PHP Warning:  Undefined array key "perbaikan" in D:\nial_app\kotak-saran-emr\view.php on line 206
+[09-May-2022 11:56:31 Asia/Jakarta] PHP Warning:  Undefined array key "lokasi" in D:\nial_app\kotak-saran-emr\view.php on line 207
+[09-May-2022 11:56:31 Asia/Jakarta] PHP Warning:  Undefined array key "analisis" in D:\nial_app\kotak-saran-emr\view.php on line 208
+[09-May-2022 11:56:31 Asia/Jakarta] PHP Warning:  Undefined array key "penanganan" in D:\nial_app\kotak-saran-emr\view.php on line 209
+[09-May-2022 11:56:31 Asia/Jakarta] PHP Warning:  Undefined array key "keterangan" in D:\nial_app\kotak-saran-emr\view.php on line 210
+[09-May-2022 11:57:08 Asia/Jakarta] PHP Warning:  Undefined array key "lokasi" in D:\nial_app\kotak-saran-emr\view.php on line 208
+[09-May-2022 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "ayanan" in D:\nial_app\kotak-saran-emr\view.php on line 208
+[14-May-2022 09:08:24 Asia/Jakarta] PHP Warning:  Undefined array key "action" in D:\nial_app\kotak-saran-emr\view.php on line 212
+[14-May-2022 09:09:20 Asia/Jakarta] PHP Warning:  Undefined array key "action" in D:\nial_app\kotak-saran-emr\view.php on line 212
+[14-May-2022 09:09:20 Asia/Jakarta] PHP Warning:  Undefined array key "action" in D:\nial_app\kotak-saran-emr\view.php on line 212
+[14-May-2022 09:09:20 Asia/Jakarta] PHP Warning:  Undefined array key "action" in D:\nial_app\kotak-saran-emr\view.php on line 212
+[14-May-2022 09:09:20 Asia/Jakarta] PHP Warning:  Undefined array key "action" in D:\nial_app\kotak-saran-emr\view.php on line 212
+[14-May-2022 09:09:20 Asia/Jakarta] PHP Warning:  Undefined array key "action" in D:\nial_app\kotak-saran-emr\view.php on line 212
+[14-May-2022 09:09:20 Asia/Jakarta] PHP Warning:  Undefined array key "action" in D:\nial_app\kotak-saran-emr\view.php on line 212
+[14-May-2022 09:09:20 Asia/Jakarta] PHP Warning:  Undefined array key "action" in D:\nial_app\kotak-saran-emr\view.php on line 212
+[14-May-2022 09:09:20 Asia/Jakarta] PHP Warning:  Undefined array key "action" in D:\nial_app\kotak-saran-emr\view.php on line 212
+[14-May-2022 09:09:20 Asia/Jakarta] PHP Warning:  Undefined array key "action" in D:\nial_app\kotak-saran-emr\view.php on line 212
+[14-May-2022 09:09:20 Asia/Jakarta] PHP Warning:  Undefined array key "action" in D:\nial_app\kotak-saran-emr\view.php on line 212
+[14-May-2022 09:09:20 Asia/Jakarta] PHP Warning:  Undefined array key "action" in D:\nial_app\kotak-saran-emr\view.php on line 212
+[14-May-2022 09:09:20 Asia/Jakarta] PHP Warning:  Undefined array key "action" in D:\nial_app\kotak-saran-emr\view.php on line 212
+[14-May-2022 09:09:20 Asia/Jakarta] PHP Warning:  Undefined array key "action" in D:\nial_app\kotak-saran-emr\view.php on line 212
+[17-May-2022 10:09:47 Asia/Jakarta] PHP Warning:  Undefined array key "action" in D:\nial_app\kotak-saran-emr\view.php on line 212
+[17-May-2022 10:09:47 Asia/Jakarta] PHP Warning:  Undefined array key "action" in D:\nial_app\kotak-saran-emr\view.php on line 212
+[17-May-2022 10:47:13 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_fetch_array(): supplied resource is not a valid ss_sqlsrv_stmt resource in D:\nial_app\kotak-saran-emr\view.php:201
+Stack trace:
+#0 D:\nial_app\kotak-saran-emr\view.php(201): sqlsrv_fetch_array(Resource id #6)
+#1 {main}
+  thrown in D:\nial_app\kotak-saran-emr\view.php on line 201
+[17-May-2022 10:47:59 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_fetch_array(): supplied resource is not a valid ss_sqlsrv_stmt resource in D:\nial_app\kotak-saran-emr\view.php:201
+Stack trace:
+#0 D:\nial_app\kotak-saran-emr\view.php(201): sqlsrv_fetch_array(Resource id #6)
+#1 {main}
+  thrown in D:\nial_app\kotak-saran-emr\view.php on line 201
+[17-May-2022 10:48:06 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_fetch_array(): supplied resource is not a valid ss_sqlsrv_stmt resource in D:\nial_app\kotak-saran-emr\view.php:201
+Stack trace:
+#0 D:\nial_app\kotak-saran-emr\view.php(201): sqlsrv_fetch_array(Resource id #6)
+#1 {main}
+  thrown in D:\nial_app\kotak-saran-emr\view.php on line 201
+[17-May-2022 10:49:07 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\view.php on line 226
+[17-May-2022 10:49:07 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\view.php on line 226
+[17-May-2022 10:50:44 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_fetch_array(): supplied resource is not a valid ss_sqlsrv_stmt resource in D:\nial_app\kotak-saran-emr\view.php:201
+Stack trace:
+#0 D:\nial_app\kotak-saran-emr\view.php(201): sqlsrv_fetch_array(Resource id #6)
+#1 {main}
+  thrown in D:\nial_app\kotak-saran-emr\view.php on line 201
+[17-May-2022 10:51:47 Asia/Jakarta] PHP Parse error:  Unclosed '{' on line 194 in D:\nial_app\kotak-saran-emr\view.php on line 307
+[17-May-2022 10:51:52 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_fetch_array(): supplied resource is not a valid ss_sqlsrv_stmt resource in D:\nial_app\kotak-saran-emr\view.php:201
+Stack trace:
+#0 D:\nial_app\kotak-saran-emr\view.php(201): sqlsrv_fetch_array(Resource id #6)
+#1 {main}
+  thrown in D:\nial_app\kotak-saran-emr\view.php on line 201
+[17-May-2022 10:53:13 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_fetch_array(): supplied resource is not a valid ss_sqlsrv_stmt resource in D:\nial_app\kotak-saran-emr\view.php:201
+Stack trace:
+#0 D:\nial_app\kotak-saran-emr\view.php(201): sqlsrv_fetch_array(Resource id #6)
+#1 {main}
+  thrown in D:\nial_app\kotak-saran-emr\view.php on line 201
+[17-May-2022 10:53:16 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_fetch_array(): supplied resource is not a valid ss_sqlsrv_stmt resource in D:\nial_app\kotak-saran-emr\view.php:201
+Stack trace:
+#0 D:\nial_app\kotak-saran-emr\view.php(201): sqlsrv_fetch_array(Resource id #6)
+#1 {main}
+  thrown in D:\nial_app\kotak-saran-emr\view.php on line 201
+[17-May-2022 10:53:37 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_fetch_array(): supplied resource is not a valid ss_sqlsrv_stmt resource in D:\nial_app\kotak-saran-emr\view.php:201
+Stack trace:
+#0 D:\nial_app\kotak-saran-emr\view.php(201): sqlsrv_fetch_array(Resource id #6)
+#1 {main}
+  thrown in D:\nial_app\kotak-saran-emr\view.php on line 201
+[17-May-2022 10:54:58 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_fetch_array(): supplied resource is not a valid ss_sqlsrv_stmt resource in D:\nial_app\kotak-saran-emr\view.php:201
+Stack trace:
+#0 D:\nial_app\kotak-saran-emr\view.php(201): sqlsrv_fetch_array(Resource id #6)
+#1 {main}
+  thrown in D:\nial_app\kotak-saran-emr\view.php on line 201
+[17-May-2022 10:56:31 Asia/Jakarta] PHP Warning:  Undefined array key "kd_brg" in D:\nial_app\kotak-saran-emr\view.php on line 213
+[17-May-2022 10:56:31 Asia/Jakarta] PHP Warning:  Undefined array key "kd_brg" in D:\nial_app\kotak-saran-emr\view.php on line 213
+[17-May-2022 10:56:31 Asia/Jakarta] PHP Warning:  Undefined array key "kd_brg" in D:\nial_app\kotak-saran-emr\view.php on line 213
+[17-May-2022 11:05:17 Asia/Jakarta] PHP Parse error:  Unclosed '{' on line 14 in D:\nial_app\kotak-saran-emr\inputstatus.php on line 30
+[17-May-2022 11:06:15 Asia/Jakarta] PHP Warning:  Undefined array key "ruang" in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[17-May-2022 11:06:15 Asia/Jakarta] PHP Warning:  Undefined array key "ruang" in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[17-May-2022 11:06:15 Asia/Jakarta] PHP Warning:  Undefined array key "ruang" in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[17-May-2022 11:14:52 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_fetch_array(): supplied resource is not a valid ss_sqlsrv_stmt resource in D:\nial_app\kotak-saran-emr\view.php:201
+Stack trace:
+#0 D:\nial_app\kotak-saran-emr\view.php(201): sqlsrv_fetch_array(Resource id #6)
+#1 {main}
+  thrown in D:\nial_app\kotak-saran-emr\view.php on line 201
+[17-May-2022 11:15:09 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_fetch_array(): supplied resource is not a valid ss_sqlsrv_stmt resource in D:\nial_app\kotak-saran-emr\view.php:201
+Stack trace:
+#0 D:\nial_app\kotak-saran-emr\view.php(201): sqlsrv_fetch_array(Resource id #6)
+#1 {main}
+  thrown in D:\nial_app\kotak-saran-emr\view.php on line 201
+[17-May-2022 11:15:49 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_fetch_array(): supplied resource is not a valid ss_sqlsrv_stmt resource in D:\nial_app\kotak-saran-emr\view.php:201
+Stack trace:
+#0 D:\nial_app\kotak-saran-emr\view.php(201): sqlsrv_fetch_array(Resource id #6)
+#1 {main}
+  thrown in D:\nial_app\kotak-saran-emr\view.php on line 201
+[17-May-2022 11:17:44 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_fetch_array(): supplied resource is not a valid ss_sqlsrv_stmt resource in D:\nial_app\kotak-saran-emr\view.php:201
+Stack trace:
+#0 D:\nial_app\kotak-saran-emr\view.php(201): sqlsrv_fetch_array(Resource id #6)
+#1 {main}
+  thrown in D:\nial_app\kotak-saran-emr\view.php on line 201
+[17-May-2022 11:18:03 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_fetch_array(): supplied resource is not a valid ss_sqlsrv_stmt resource in D:\nial_app\kotak-saran-emr\view.php:201
+Stack trace:
+#0 D:\nial_app\kotak-saran-emr\view.php(201): sqlsrv_fetch_array(Resource id #6)
+#1 {main}
+  thrown in D:\nial_app\kotak-saran-emr\view.php on line 201
+[17-May-2022 11:19:58 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_fetch_array(): supplied resource is not a valid ss_sqlsrv_stmt resource in D:\nial_app\kotak-saran-emr\view.php:201
+Stack trace:
+#0 D:\nial_app\kotak-saran-emr\view.php(201): sqlsrv_fetch_array(Resource id #6)
+#1 {main}
+  thrown in D:\nial_app\kotak-saran-emr\view.php on line 201
+[17-May-2022 11:20:02 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_fetch_array(): supplied resource is not a valid ss_sqlsrv_stmt resource in D:\nial_app\kotak-saran-emr\view.php:201
+Stack trace:
+#0 D:\nial_app\kotak-saran-emr\view.php(201): sqlsrv_fetch_array(Resource id #6)
+#1 {main}
+  thrown in D:\nial_app\kotak-saran-emr\view.php on line 201
+[17-May-2022 11:25:11 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[17-May-2022 11:25:11 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[17-May-2022 11:25:58 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[17-May-2022 11:25:58 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[17-May-2022 11:26:30 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[17-May-2022 11:26:30 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[17-May-2022 11:26:44 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_fetch_array(): supplied resource is not a valid ss_sqlsrv_stmt resource in D:\nial_app\kotak-saran-emr\view.php:201
+Stack trace:
+#0 D:\nial_app\kotak-saran-emr\view.php(201): sqlsrv_fetch_array(Resource id #6)
+#1 {main}
+  thrown in D:\nial_app\kotak-saran-emr\view.php on line 201
+[17-May-2022 11:26:49 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_fetch_array(): supplied resource is not a valid ss_sqlsrv_stmt resource in D:\nial_app\kotak-saran-emr\view.php:201
+Stack trace:
+#0 D:\nial_app\kotak-saran-emr\view.php(201): sqlsrv_fetch_array(Resource id #6)
+#1 {main}
+  thrown in D:\nial_app\kotak-saran-emr\view.php on line 201
+[17-May-2022 11:27:02 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_fetch_array(): supplied resource is not a valid ss_sqlsrv_stmt resource in D:\nial_app\kotak-saran-emr\view.php:201
+Stack trace:
+#0 D:\nial_app\kotak-saran-emr\view.php(201): sqlsrv_fetch_array(Resource id #6)
+#1 {main}
+  thrown in D:\nial_app\kotak-saran-emr\view.php on line 201
+[17-May-2022 11:27:09 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_fetch_array(): supplied resource is not a valid ss_sqlsrv_stmt resource in D:\nial_app\kotak-saran-emr\view.php:201
+Stack trace:
+#0 D:\nial_app\kotak-saran-emr\view.php(201): sqlsrv_fetch_array(Resource id #6)
+#1 {main}
+  thrown in D:\nial_app\kotak-saran-emr\view.php on line 201
+[17-May-2022 11:28:02 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_fetch_array(): supplied resource is not a valid ss_sqlsrv_stmt resource in D:\nial_app\kotak-saran-emr\view.php:201
+Stack trace:
+#0 D:\nial_app\kotak-saran-emr\view.php(201): sqlsrv_fetch_array(Resource id #6)
+#1 {main}
+  thrown in D:\nial_app\kotak-saran-emr\view.php on line 201
+[17-May-2022 11:30:22 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_fetch_array(): supplied resource is not a valid ss_sqlsrv_stmt resource in D:\nial_app\kotak-saran-emr\view.php:201
+Stack trace:
+#0 D:\nial_app\kotak-saran-emr\view.php(201): sqlsrv_fetch_array(Resource id #6)
+#1 {main}
+  thrown in D:\nial_app\kotak-saran-emr\view.php on line 201
+[17-May-2022 11:30:39 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[17-May-2022 11:30:39 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[17-May-2022 11:39:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[17-May-2022 11:39:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[17-May-2022 11:40:05 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[17-May-2022 11:40:05 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[17-May-2022 12:05:18 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[17-May-2022 12:05:18 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[17-May-2022 13:11:55 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[17-May-2022 13:11:55 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[17-May-2022 13:25:56 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[17-May-2022 13:25:56 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[18-May-2022 10:49:12 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[18-May-2022 10:49:12 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[18-May-2022 10:49:12 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[18-May-2022 10:49:12 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[18-May-2022 10:49:19 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[18-May-2022 10:49:19 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[19-May-2022 11:48:56 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[19-May-2022 11:48:56 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[19-May-2022 11:48:56 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[19-May-2022 11:48:56 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[19-May-2022 11:49:05 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[19-May-2022 11:49:05 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[19-May-2022 12:00:48 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[19-May-2022 12:00:48 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[19-May-2022 12:15:00 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[19-May-2022 12:15:00 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[19-May-2022 12:15:00 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[19-May-2022 12:15:00 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[23-May-2022 11:54:34 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[23-May-2022 11:54:34 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[23-May-2022 11:54:34 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[23-May-2022 11:54:34 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[23-May-2022 13:21:57 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[23-May-2022 13:21:57 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[23-May-2022 13:21:57 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[23-May-2022 13:21:57 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[23-May-2022 13:23:20 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[23-May-2022 13:23:20 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[23-May-2022 13:23:20 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[23-May-2022 13:23:20 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:36:40 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:36:40 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:36:40 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:36:40 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:39:30 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:39:30 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:39:30 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:39:30 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:40:01 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:40:01 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:40:01 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:40:01 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:41:01 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:41:01 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:41:01 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:41:01 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:41:28 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:41:28 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:41:28 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:41:28 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:41:32 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:41:32 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:41:32 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:41:32 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:41:57 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:41:57 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:41:57 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:41:57 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:42:19 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:42:19 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:42:19 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:42:19 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:42:21 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:42:21 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:42:21 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:42:21 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:42:39 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:42:39 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:42:39 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:42:39 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:42:40 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:42:40 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:42:40 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:42:40 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:42:58 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:42:58 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:42:58 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:42:58 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:43:15 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:43:15 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:43:15 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:43:15 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:43:18 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:43:18 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:43:18 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:43:18 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:43:59 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:43:59 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:43:59 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:43:59 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:44:02 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:44:02 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:44:02 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:44:02 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:44:24 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:44:24 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:44:24 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:44:24 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:44:37 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:44:37 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:44:37 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:44:37 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:44:57 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:44:57 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:44:57 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:44:57 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:45:39 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:45:39 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:45:39 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:45:39 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:46:02 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:46:02 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:46:02 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:46:02 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:46:14 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:46:14 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:46:14 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:46:14 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:46:22 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:46:22 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:46:22 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:46:22 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:46:31 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:46:31 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:46:31 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:46:31 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:46:48 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:46:48 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:46:48 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:46:48 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:47:12 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:47:12 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:47:12 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:47:12 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:47:17 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:47:17 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:47:17 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:47:17 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:47:25 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:47:25 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:47:25 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:47:25 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:47:44 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:47:44 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:47:44 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:47:44 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:47:52 Asia/Jakarta] PHP Warning:  Undefined array key "start" in D:\nial_app\kotak-saran-emr\rekap-pelaporan.php on line 210
+[28-May-2022 10:47:52 Asia/Jakarta] PHP Warning:  Undefined array key "end" in D:\nial_app\kotak-saran-emr\rekap-pelaporan.php on line 211
+[28-May-2022 10:47:52 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:47:52 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:49:38 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:49:38 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:49:42 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:49:42 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:50:25 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:50:25 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:50:37 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:50:37 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:51:03 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:51:03 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:51:06 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:51:06 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:51:06 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:51:06 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:51:31 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:51:31 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:51:31 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:51:32 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:51:43 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:51:43 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:53:38 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:53:38 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:53:46 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:53:46 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:53:46 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:53:46 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:53:57 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:53:57 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:55:03 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:55:03 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:55:37 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:55:37 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:55:44 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:55:44 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:59:37 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:59:37 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 10:59:37 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 10:59:37 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 11:00:03 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 11:00:03 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 11:00:03 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 11:00:03 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 11:04:08 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 11:04:08 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 11:04:08 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 11:04:08 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 11:04:12 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 11:04:12 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 11:04:12 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 11:04:12 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 11:04:17 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 11:04:17 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 11:04:17 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 11:04:17 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 11:06:49 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 11:06:49 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 11:12:19 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 11:12:19 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 11:12:19 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 11:12:19 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[28-May-2022 11:12:22 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[28-May-2022 11:12:22 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[02-Jun-2022 07:54:47 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[02-Jun-2022 07:54:47 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[02-Jun-2022 07:54:47 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[02-Jun-2022 07:54:47 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[02-Jun-2022 07:55:01 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[02-Jun-2022 07:55:01 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[02-Jun-2022 07:55:23 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[02-Jun-2022 07:55:23 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[02-Jun-2022 07:55:27 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[02-Jun-2022 07:55:27 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[02-Jun-2022 07:55:45 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[02-Jun-2022 07:55:45 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[02-Jun-2022 07:55:45 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[02-Jun-2022 07:55:45 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[02-Jun-2022 07:55:50 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[02-Jun-2022 07:55:50 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[04-Jun-2022 11:54:19 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[04-Jun-2022 11:54:19 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[04-Jun-2022 11:54:19 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[04-Jun-2022 11:54:19 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[04-Jun-2022 11:54:23 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[04-Jun-2022 11:54:23 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[04-Jun-2022 11:54:51 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[04-Jun-2022 11:54:51 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[04-Jun-2022 11:54:51 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[04-Jun-2022 11:54:51 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[04-Jun-2022 11:54:55 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[04-Jun-2022 11:54:55 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[04-Jun-2022 16:46:01 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[04-Jun-2022 16:46:01 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[04-Jun-2022 16:46:01 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[04-Jun-2022 16:46:01 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[08-Jun-2022 09:09:46 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[08-Jun-2022 09:09:46 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[08-Jun-2022 09:09:46 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[08-Jun-2022 09:09:46 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[08-Jun-2022 09:44:48 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[08-Jun-2022 09:44:48 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[08-Jun-2022 09:44:48 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[08-Jun-2022 09:44:48 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[08-Jun-2022 09:44:50 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[08-Jun-2022 09:44:50 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[08-Jun-2022 12:27:41 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[08-Jun-2022 12:27:41 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[08-Jun-2022 13:17:01 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[08-Jun-2022 13:17:01 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[08-Jun-2022 13:17:11 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[08-Jun-2022 13:17:11 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[08-Jun-2022 13:17:13 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[08-Jun-2022 13:17:13 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[08-Jun-2022 13:17:42 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[08-Jun-2022 13:17:42 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[08-Jun-2022 13:17:42 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[08-Jun-2022 13:17:42 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[08-Jun-2022 13:17:50 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[08-Jun-2022 13:17:50 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[08-Jun-2022 13:17:50 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[08-Jun-2022 13:17:50 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[15-Jun-2022 09:45:38 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[15-Jun-2022 09:45:38 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[15-Jun-2022 09:45:38 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[15-Jun-2022 09:45:38 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[15-Jun-2022 09:45:41 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[15-Jun-2022 09:45:41 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[15-Jun-2022 10:00:36 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[15-Jun-2022 10:00:36 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[15-Jun-2022 10:00:36 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[15-Jun-2022 10:00:36 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[15-Jun-2022 10:00:39 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 1
+[15-Jun-2022 10:00:39 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\kotak-saran-emr\inputstatus.php on line 12
+[18-Jun-2022 11:05:03 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\order-perbaikan\inputstatus.php on line 1
+[18-Jun-2022 11:05:03 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\order-perbaikan\inputstatus.php on line 1
+[18-Jun-2022 11:05:03 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\order-perbaikan\inputstatus.php on line 12
+[18-Jun-2022 11:05:03 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\order-perbaikan\inputstatus.php on line 12
+[18-Jun-2022 11:07:17 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\order-perbaikan\inputstatus.php on line 1
+[18-Jun-2022 11:07:17 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\order-perbaikan\inputstatus.php on line 1
+[18-Jun-2022 11:07:17 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\order-perbaikan\inputstatus.php on line 12
+[18-Jun-2022 11:07:17 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\order-perbaikan\inputstatus.php on line 12
+[18-Jun-2022 11:09:36 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\order-perbaikan\inputstatus.php on line 1
+[18-Jun-2022 11:09:36 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\order-perbaikan\inputstatus.php on line 1
+[18-Jun-2022 11:09:36 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\order-perbaikan\inputstatus.php on line 12
+[18-Jun-2022 11:09:36 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\order-perbaikan\inputstatus.php on line 12
+[18-Jun-2022 11:09:39 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\order-perbaikan\inputstatus.php on line 1
+[18-Jun-2022 11:09:39 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\order-perbaikan\inputstatus.php on line 1
+[18-Jun-2022 11:09:39 Asia/Jakarta] PHP Warning:  Undefined variable $data in D:\nial_app\order-perbaikan\inputstatus.php on line 12
+[18-Jun-2022 11:09:39 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in D:\nial_app\order-perbaikan\inputstatus.php on line 12
+[18-Jun-2022 11:28:47 Asia/Jakarta] PHP Parse error:  syntax error, unexpected variable "$layanan", expecting "]" in D:\nial_app\order-perbaikan\proses.php on line 28
+[18-Jun-2022 11:28:50 Asia/Jakarta] PHP Parse error:  syntax error, unexpected variable "$layanan", expecting "]" in D:\nial_app\order-perbaikan\proses.php on line 28
+[18-Jun-2022 11:29:01 Asia/Jakarta] PHP Parse error:  syntax error, unexpected variable "$layanan", expecting "]" in D:\nial_app\order-perbaikan\proses.php on line 28
+[18-Jun-2022 11:29:31 Asia/Jakarta] PHP Parse error:  syntax error, unexpected identifier "Perbaikan", expecting "]" in D:\nial_app\order-perbaikan\proses.php on line 28
+[18-Jun-2022 12:26:30 Asia/Jakarta] PHP Parse error:  syntax error, unexpected variable "$layanan", expecting "]" in D:\nial_app\order-perbaikan\proses.php on line 30
