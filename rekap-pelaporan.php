@@ -183,6 +183,8 @@
                           <option value="RJ Poli Umum">RJ Poli Umum</option>
                           <option value="RJ Obsgyn">RJ Obsgyn</option>
                           <option value="Rekam Medis">Rekam Medis</option>
+                          <option value="Gizi">Gizi</option>
+                          <option value="Hemodialisa">Hemodialisa</option>
 
                         </select>
                         <button type="submit" name="cari" class="btn btn-primary ml-3">Search</button>
@@ -195,13 +197,14 @@
                         <th>No</th>
                         <!-- <th>kode laporan</th> -->
                         <th>Tanggal</th>
-                        <th>Kendala/Bug Report/Error</th>
-                        <th>Modul / Menu</th>
-                        <th>Layanan / Lokasi Unit / Ins.</th>
-                        <th>Note</th>
-                        <th>Status/Respon</th>
-                        <!-- <th>Input Status</th> -->
-
+                        <th>Unit/Ins</th>
+                        <th>Nama Barang</th>
+                        <th>Jenis/Tipe</th>
+                        <th>Kerusakan</th>
+                        <th>Keterangan</th>
+                        <th>Pelapor</th>
+                        <th>Status</th>
+                        <!-- <th>Action</th> -->
                       </tr>
                     </thead>
                     <tbody>
@@ -211,18 +214,21 @@
                       if (isset($_POST['cari'])) {
                         $layanan = $_POST['lokasi'];
 
-                        $sql = " SELECT * FROM xxx where layanan='$layanan' ";
+                        $sql = " SELECT * FROM order_perbaikan where layanan='$layanan' ";
                         $no = 1;
                         $query = sqlsrv_query($conn, $sql) or die(sqlsrv_errors());;
                         while ($data = sqlsrv_fetch_array($query)) {
                       ?>
                           <tr>
                             <td><?php echo $no++; ?></td>
+
                             <td><?php echo $data['tanggal']; ?></td>
-                            <td><?php echo $data['kendala']; ?></td>
-                            <td><?php echo $data['modul']; ?></td>
                             <td><?php echo $data['layanan']; ?></td>
-                            <td><?php echo $data['note']; ?></td>
+                            <td><?php echo $data['nm_brg']; ?></td>
+                            <td><?php echo $data['jenis_tipe']; ?></td>
+                            <td><?php echo $data['jenis_kerusakan']; ?></td>
+                            <td><?php echo $data['keterangan']; ?></td>
+                            <td><?php echo $data['pelapor']; ?></td>
                             <td><?php echo $data['status']; ?></td>
                             <!-- <td>
                               <button type="button" class="btn-sm btn-info" data-toggle="modal" data-target="#myModal1<?php echo $data['id']; ?>">Input Status</button>

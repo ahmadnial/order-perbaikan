@@ -66,7 +66,8 @@ include "proses.php"; ?>
                             <label for="alamat" class="form-label">Pelapor</label>
                             <input type="text" class="form-control" name="pelapor" placeholder="Tuliskan Nama Anda">
                         </div>
-                        <!-- <input type="hidden" class="form-control" name="status" value="Menunggu Respon"> -->
+                        <input type="hidden" class="form-control" name="status" value="Menunggu Respon">
+                        <input type="hidden" class="form-control" name="result" value="">
 
                         <!-- <input type="hidden" class="form-control" name="status" value="Menunggu Respon"> -->
 

@@ -10,10 +10,19 @@ if (isset($_POST['save'])) {
     $kerusakan = $_POST['jenis_kerusakan'];
     $ket = $_POST['keterangan'];
     $pelapor = $_POST['pelapor'];
+    $status = $_POST['status'];
+    $result = $_POST['result'];
 
-    $text = $_POST[''];
+    $ketTanggal = '*Tanggal : ';
+    $ketLayanan = '*Layanan : ';
+    $ketNmBrg = '*Nama Barang : ';
+    $ketKerusakan = '*Kerusakan : ';
+    $ketKet = '*Keterangan : ';
+    $ketPelapor = '*Pelapor : ';
 
-    $sql = "INSERT INTO order_perbaikan VALUES ('$tanggal','$layanan','$nm_brg','$jenis','$kerusakan','$ket','$pelapor' )";
+    // $text = $_POST[''];
+
+    $sql = "INSERT INTO order_perbaikan VALUES ('$tanggal','$layanan','$nm_brg','$jenis','$kerusakan','$ket','$pelapor','$status','$result')";
 
     $query = sqlsrv_query($conn, $sql);
 
@@ -26,9 +35,14 @@ if (isset($_POST['save'])) {
         $apiToken = "5355839999:AAEBaeF-MOoF8ExnZJ1dcXJviVBdGxiTM0g";
         $data = [
             'chat_id' => '539860841',
-            // 'text' => 'Laporan Baru Masuk,Bos!',
-            'text' =>  $layanan
-            // 'text' => $tanggal
+            'text' => 'Laporan Kerusakan,Bos! Detail Laporan :' . PHP_EOL
+                . $ketTanggal . $tanggal . PHP_EOL
+                . $ketLayanan . $layanan . PHP_EOL
+                . $ketNmBrg . $nm_brg . PHP_EOL
+                . $ketKerusakan . $kerusakan . PHP_EOL
+                . $ketKet . $ket . PHP_EOL
+                . $ketPelapor . $pelapor,
+            'parse_mode' => 'html'
         ];
         $response = file_get_contents("https://api.telegram.org/bot$apiToken/sendMessage?" . http_build_query($data));
     } else {
